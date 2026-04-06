@@ -1,0 +1,9 @@
+# IMS Gearbox Dash — Dependencies
+#
+# Core (all platforms)
+pygame>=2.5.0
+
+# Raspberry Pi only (not needed for PC mock mode)
+# Uncomment these when deploying to the Pi:
+# RPi.GPIO>=0.7.1
+# spidev>=3.6
